@@ -1,8 +1,6 @@
 // add your Reference_Variable_If code here
 float circleX=50;
 float bounce= 10;
-
-
 void setup() {
   size(600, 600);
 frameRate(120);
@@ -16,7 +14,7 @@ void draw() {
   if (circleX > 600){
     bounce= -5;
   }
-  if (circleX < 0){
+if (circleX < 0){
     bounce= +5;
   } 
 fill(153,51,255);
